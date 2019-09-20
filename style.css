@@ -1,0 +1,78 @@
+  @font-face {
+    font-family: 'Crimson Text';
+    font-style: italic;
+    font-weight: 400;
+    font-display: swap;
+    src: local('Crimson Text Italic'), local('CrimsonText-Italic'), url(https://fonts.gstatic.com/s/crimsontext/v10/wlpogwHKFkZgtmSR3NB0oRJfajhRK_Y.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+  }
+
+  @font-face {
+    font-family: 'Crimson Text';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: local('Crimson Text Regular'), local('CrimsonText-Regular'), url(https://fonts.gstatic.com/s/crimsontext/v10/wlp2gwHKFkZgtmSR3NB0oRJfbwhT.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+  }
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Crimson Text', Courier, monospace;
+    background: bisque;
+    text-align: center;
+    font-size: 15px;
+}
+
+.piano{
+  width: 610px;
+  height: 210px;
+  display: block;
+  margin: 0 auto;
+  margin-top: 30px;
+}
+
+.key{
+  width: 30px;
+  height: 200px;
+  display: inline-block;
+  border: solid #141c3a 2px;
+  box-shadow: 2px 5px;
+  background-color: white;
+  color: #141c3a;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.black-key{
+  width: 25px;
+  height: 100px;
+  display: inline-block;
+  background-color: #141c3a;
+  color: white;
+  position: absolute;
+  margin-left: -12px;
+  padding: 0px;
+  cursor: pointer;
+  font-size: 12px;
+}
+
+.keynote{
+  width: 20px;
+  height: 20px;
+  text-align: center;
+  display: block;
+  margin: 0 auto;
+  margin-top: 175px;
+  color: #141c3a;
+}
+
+.black-keynote{
+  width: 20px;
+  height: 20px;
+  text-align: center;
+  display: block;
+  margin: 0 auto;
+  margin-top: 75px;
+}
